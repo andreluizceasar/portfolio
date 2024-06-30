@@ -1,7 +1,7 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
-		"end": "Hello, my name is",
+		"start": "const Andre = ( name, passion ) =>",
+		"end": "Oi, meu nome é",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -11,15 +11,15 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "André Luiz Ceasar.",
+		"usp": "Imagino e construo experiências."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": " Com uma mentalidade aberta e curiosa, abraço os problemas concretos como oportunidades de crescimento, transformando-os em projetos criativos e soluções inovadoras.",
 
 	"buttons": {
 		"primary": {
-			"title": "Contact Me",
+			"title": "Fale comigo",
 			"url": "",
 			"leaveSite": false
 		},
