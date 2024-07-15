@@ -1,52 +1,65 @@
 [
 	{
-		"project": "My Supply Co.",
-		"url": "https://mysupplyco.com",
+		"project": "Circuito das Araucárias.",
+		"url": "https://play.google.com/store/apps/details?id=com.dosul.digital.appcircuitodasaraucarias",
 		"repo": "Private",
-		"descriptionTitle": "D2C & B2B ecommerce site and blog",
-		"description": "with elegant solutions for a complex codebase and customer journey.",
+		"descriptionTitle": "Aplicativo de Cicloturismo",
+		"description": "para guiar ciclistas pelos trechos do Circuito das Araucárias.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{ "key": "mock-stack",	"hover": "right",	"h": "1730", "w": "1080", "url": "/img/circuito1.webp" },
+			{ "key": "mock-stack",	"hover": "left",	"h": "1730", "w": "1080", "url": "/img/circuito3.webp" }
 		],
 		"stack": [
+			{ "key": "react", 		"name": "React Native", "type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
 			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
 			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
-			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
-			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
 		]
 	},
 	{
-		"project": "andrewnelson.net",
-		"url": "https://github.com/atlamors/portfolio",
-		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"project": "Mangueplast",
+		"url": "https://play.google.com/store/apps/details?id=com.dosul.digital.mangueplast",
+		"repo": "private",
+		"descriptionTitle": "Uma poderosa ferramenta de criação de pedidos",
+		"description": "projetada para simplificar e acelerar o processo de pedido de produtos.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "portfolio", "hover": "left", "h": "1168", "w": "576",  "url": "/img/pedidos.webp" }
+		],
+		"stack": [
+			{ "key": "react", 	"name": "React Native", 	"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
+			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+		]
+	},	
+	{
+		"project": "Nosso Jardim",
+		"url": "https://www.nossojardimrionegrinho.com.br/",
+		"repo": "private",
+		"descriptionTitle": "WebSite",
+		"description": "do projeto da prefeitura de Rio Negrinho - SC que conta a história da cidade.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "1354", "w": "720",  "url": "/img/jardim.jpg" },
+			{ "key": "portfolio", "hover": "left", "h": "1354", "w": "720",  "url": "/img/jardim3.jpg" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
 			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
+			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
+			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
 		]
 	}
