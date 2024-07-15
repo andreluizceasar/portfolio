@@ -1,13 +1,13 @@
-import Section 		from '../structure/section';
-import Container 	from '../structure/container';
+import Section from '../structure/section';
+import Container from '../structure/container';
 
-import css 			from '../../styles/sections/projects/featured.module.scss'
+import css from '../../styles/sections/projects/featured.module.scss'
 
 export default function ComingSoon() {
 	return (
-		<Section classProp={css.hasBg}>	
+		<Section classProp={css.hasBg}>
 			<Container>
-				<h2 className="fullHeight centered">Coming Soon!</h2>
+				<h2 className="fullHeight centered">Em breve!</h2>
 				<style jsx>{`
 				.fullHeight {
 					min-height: 500px;

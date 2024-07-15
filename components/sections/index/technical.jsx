@@ -25,7 +25,7 @@ import about from '../../../styles/sections/index/about.module.scss'
  */
 export default function Technical() {
 	return (
-		<Section id="tecnical" classProp={`${about.section} borderBottom`}>	
+		<Section id="tecnologias" classProp={`${about.section} borderBottom`}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="Technical"
