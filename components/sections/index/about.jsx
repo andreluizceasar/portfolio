@@ -28,24 +28,24 @@ export default function About() {
 		<Section id="sobre-mim" classProp={about.section}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					title="Sobre Mim"
+					preTitle="Sinópse"
+					subTitle="Com mais de 3 anos de experiência em desenvolvimento, possuo um portfólio diversificado de projetos desenvolvidos individualmente, demonstrando minha capacidade de trabalhar de forma independente e proativa."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<img src="/img/portfolio_picture.jpg" alt="Nelson family photo"/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title="Softskills"
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="Sou uma pessoa apaixonada por aprender e crescer, buscando constantemente aprimorar minhas habilidades e conhecimentos. Possuo excelente comunicação, transmitindo ideias de forma clara e eficiente. Sou habilidoso em apresentar informações complexas de maneira simples e compreensível, tanto em português quanto em inglês."
 						/>
-						<BadgesBlock 
+						{/* <BadgesBlock 
 							title="Reasearch and planning" 
 							containerClass={about.container}
 							list={methods} 
@@ -55,7 +55,7 @@ export default function About() {
 							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
-						/>
+						/> */}
 					</div>
 				</section>	
 			</Container>
