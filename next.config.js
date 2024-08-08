@@ -6,6 +6,10 @@ module.exports = {
 	images: {
 		remotePatterns: [
 			{
+				protocol: "https",
+				hostname: "andreceasar.com",
+			},
+			{
 				protocol: 'https',
 				hostname: '**.vercel.app',
 				pathname: '/api/**'
