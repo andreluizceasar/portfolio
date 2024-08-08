@@ -1,50 +1,39 @@
 {
 	"acknowledgments": [
-		{ 
-			"person": "Jihad Hassan - Marketing Director",
-			"link": "",
-			"note": "Thank you for all the advice and feedback."
+		{
+			"person": "Taylor Swift",
+			"link": "https://www.taylorswift.com/",
+			"note": "Cantora talentosa, voz de uma geração."
 		},
-		{ 
-			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
-			"note": "Checkout their amazing vector illustrations."
+		{
+			"person": "Elon Musk",
+			"link": "https://www.tesla.com/elon-musk",
+			"note": "Visionário disruptivo, moldando o amanhã."
 		},
-		{ 
-			"person": "Brittany Chiang - Software Engineer",
-			"link": "https://brittanychiang.com/",
-			"note": "A major inspiration to create an open source theme."
-		},
-		{ 
-			"person": "Vercel - Platform",
-			"link": "https://vercel.com/docs",
-			"note": "Host your own Next.js project for free!"
+		{
+			"person": "LeBron James",
+			"link": "https://www.lebronjames.com/",
+			"note": "Ícone do basquete, líder inspirador."
 		}
 	],
-
 	"links": [
-		{ 
-			"person": "YWFT Creative Marketplace",
-			"link": "https://www.youworkforthem.com/?aff=1115",
-			"note": "Best in class creative assets."
+		{
+			"person": "Pointer Pointer",
+			"link": "https://pointerpointer.com/",
+			"note": "Apontando a vida toda."
 		}
 	],
-
 	"social": [
 		{
-			"url": "https://medium.com/@--andrewnelson",
-			"icon": "medium"
+			"url": "https://www.instagram.com/andreceasar_",
+			"icon": "instagram"
 		},
 		{
-			"url": "https://dev.to/andrewnelson",
-			"icon": "dev"
-		},
-		{
-			"url": "https://www.linkedin.com/in/--andrewnelson/",
+			"url": "https://www.linkedin.com/in/andré-luiz-ceasar-4465571bb/",
 			"icon": "linkedin"
 		},
 		{
-			"url": "https://github.com/atlamors",
+			"url": "https://github.com/andreluizceasar",
 			"icon": "github"
 		}
 	]
