@@ -95,6 +95,7 @@
 		
 		// Columns
 		.image {
+			z-index: -1;
 			flex-basis: 50%;
 			flex-grow: 1;
 			flex-shrink: 1;

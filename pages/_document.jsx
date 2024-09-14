@@ -1,5 +1,6 @@
 // Default core packages
 import { Html, Head, Main, NextScript } from 'next/document'
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 /**
  * Load custom scripts in <Head>
@@ -18,6 +19,11 @@ export default function Document() {
 				<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" /> */}
 				<meta name="msapplication-TileColor" content="#da532c" />
 				<meta name="theme-color" content="#ffffff" />
+
+				{/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4334671320321612"
+					crossOrigin="anonymous"></script> */}
+
+				<GoogleAnalytics gaId="G-41EYMLWWT6" />
 			</Head>
 			<body>
 				<Main />

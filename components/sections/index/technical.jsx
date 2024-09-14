@@ -91,7 +91,6 @@ const tech = [
 	{ key: 'wordpress', name: 'WordPress', type: 'devicon' },
 	{ key: 'html5', name: 'HTML5', type: 'devicon' },
 	{ key: 'css3', name: 'CSS3', type: 'devicon' },
-	{ key: 'sass', name: 'SASS', type: 'devicon' },
 	{ key: 'git', name: 'Git', type: 'devicon' },
 	{ key: 'mysql', name: 'MySQL', type: 'devicon' },
 	{ key: 'docker', name: 'Docker', type: 'devicon' },

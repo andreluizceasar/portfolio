@@ -17,7 +17,7 @@ export default function FeaturedProjects() {
 		<Section id="projetos" classProp={css.hasBg}>	
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Atuação em Projetos"
+					title="Projetos"
 					preTitle="UX e Full Stack"
 					subTitle="Criação de soluções de forma eficiênte."
 				/> 				{

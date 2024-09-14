@@ -65,7 +65,7 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:andreceasar69@gmail.com' } >
+							onClick={ () => window.location = 'mailto:contato@andreceasar.com' } >
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} leaveSite`}

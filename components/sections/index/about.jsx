@@ -46,17 +46,17 @@ export default function About() {
 							icon={[ 'fat', 'ear-listen' ]}
 							copy="Sou uma pessoa apaixonada por aprender e crescer, buscando constantemente aprimorar minhas habilidades e conhecimentos. Possuo excelente comunicação, transmitindo ideias de forma clara e eficiente. Sou habilidoso em apresentar informações complexas de maneira simples e compreensível, tanto em português quanto em inglês."
 						/>
-						{/* <BadgesBlock 
-							title="Reasearch and planning" 
+						<BadgesBlock 
+							title="Pesquisa e planejamento" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
+							copy="Um dos meus aspectos preferidos em criar um projeto é criar e planejar a arquitetura. Desde Design Systems a estratégias de Branding gosto de trabalhar com vários aspectos da experiência do usuário."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
-						/> */}
+						/>
 					</div>
 				</section>	
 			</Container>
