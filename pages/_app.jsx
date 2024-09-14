@@ -1,6 +1,7 @@
 // Core packages
 import { Analytics } from '@vercel/analytics/react';
 import { LazyMotion, domAnimation } from "framer-motion"
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 // Utils
 import SetGridGap from '../components/utils/set.grid.util'
@@ -40,6 +41,7 @@ export default function MyApp({ Component, pageProps }) {
 				<Component {...pageProps} />
 				<SetGridGap />
 				<Analytics />
+				<GoogleAnalytics gaId="G-41EYMLWWT6" />
 			</Layout>
 		</LazyMotion>
 		</>
