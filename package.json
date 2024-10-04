@@ -4,7 +4,8 @@
 		"build": "next build",
 		"start": "next start -p 3001",
 		"lint": "next lint",
-		"test": "jest --watch"
+		"test": "jest --watch",
+		"pages:build": "npx @cloudflare/next-on-pages"
 	},
 	"dependencies": {
 		"@fontsource/fira-code": "^4.5.12",
@@ -37,6 +38,7 @@
 		"uuid": "^9.0.0"
 	},
 	"devDependencies": {
+		"@cloudflare/next-on-pages": "^1.13.3",
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
 		"eslint": "8.31.0",
