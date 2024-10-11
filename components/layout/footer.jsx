@@ -38,7 +38,7 @@ export default function Footer() {
 						content.acknowledgments.map( ({ person, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fas', 'link' ]} /></a>
 									<p>{note}</p>
 								</li>
 							)
@@ -51,7 +51,7 @@ export default function Footer() {
 						content.links.map( ({ person, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fas', 'link' ]} /></a>
 									<p>{note}</p>
 								</li>
 							)

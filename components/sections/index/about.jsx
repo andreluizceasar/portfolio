@@ -43,7 +43,7 @@ export default function About() {
 							title="Softskills"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
+							icon={[ 'fas', 'ear-listen' ]}
 							copy="Sou uma pessoa apaixonada por aprender e crescer, buscando constantemente aprimorar minhas habilidades e conhecimentos. Possuo excelente comunicação, transmitindo ideias de forma clara e eficiente. Sou habilidoso em apresentar informações complexas de maneira simples e compreensível, tanto em português quanto em inglês."
 						/>
 						<BadgesBlock 
@@ -65,10 +65,10 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+	{ key: 'earth-americas',    name: 'User Research', 		type: 'fas' },
+	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fas' },
+	{ key: 'window-maximize', 	name: 'Design Systems', 	type: 'fas' },
+	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'fas' },
+	{ key: 'layer-group', 		name: 'Brand Strategy', 	type: 'fas' },
+	{ key: 'globe', 			name: 'Operations', 		type: 'fas' },
 ]

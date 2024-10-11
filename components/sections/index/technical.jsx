@@ -36,7 +36,7 @@ export default function Technical() {
 					<div className={about.copy}>
 						<CopyBlock
 							title="Fundação em conhecimentos"
-							icon={['fat', 'chart-network']}
+							icon={['fas', 'network-wired']}
 							copy="Com uma sólida base em design e desenvolvimento, eu trago uma perspectiva única para cada projeto e estou constantemente aprendendo e evoluindo para me manter atualizado com as últimas tendências da indústria."
 							iconClass={about.icon}
 							containerClass={about.container}
@@ -47,7 +47,7 @@ export default function Technical() {
 							list={software}
 							block="software"
 							fullContainer="fullContainer"
-							icon="grid-2-plus"
+							icon="grip"
 							containerClass={about.container}
 							headerIcon={about.icon}
 						/>
