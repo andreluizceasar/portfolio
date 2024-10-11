@@ -1,6 +1,6 @@
 module.exports = {
 	basePath: '',
-  	assetPrefix: './',
+  	assetPrefix: '',
 	reactStrictMode: true,
 	env: {
 		dir: '/',
