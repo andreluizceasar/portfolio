@@ -1,7 +1,7 @@
 // Default core packages
 import { Html, Head, Main, NextScript } from 'next/document'
 
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 /**
  * Load custom scripts in <Head>
