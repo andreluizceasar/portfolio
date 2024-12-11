@@ -34,8 +34,8 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<Image src="/img/portfolio_picture.jpg" alt="André Luiz Ceasar" width={1200} height={1600} />
-						{/* <img src="/img/portfolio_picture.jpg" alt="André Luiz Ceasar"/> */}
+						<Image src="/img/20240304_124324.png" alt="André Luiz Ceasar" width={1200} height={1600} />
+						{/* <img src="/img/20240304_124324.png" alt="André Luiz Ceasar"/> */}
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
