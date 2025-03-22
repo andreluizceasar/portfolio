@@ -12,6 +12,7 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
+				<title>André Luiz Ceasar</title>
 				<link rel="icon" type="image/png" href="/favicon/favicon-sun.png" />
 				{/* <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
 				<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />

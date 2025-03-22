@@ -57,7 +57,7 @@ export default function FeaturedProject({ content }, index) {
 				{images.map(({ key, url, hover, h, w }, index) => {
 					return (
 						<m.div className={css.imgWrapper} key={`${index}-${key}`} variants={item}>
-							<Image src={url} alt="x" height={400} width={200}  />
+							<Image src={url} alt="x" height={h} width={w} />
 						</m.div>
 					)
 				}

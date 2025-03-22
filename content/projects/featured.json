@@ -1,4 +1,23 @@
-[
+[	
+	{
+		"project": "TemperedMe.",
+		"url": "https://tempered.me",
+		"repo": "Private",
+		"descriptionTitle": "Monitoramento de Humor",
+		"description": "e atividades feito simples.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left",	"h": "600", "w": "274", "url": "/img/temperedme1.jpg" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "600", "w": "274", "url": "/img/temperedme2.jpg" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "NextJs", 		"type": "devicon" },
+			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" },
+			{ "key": "postgresql", 	"name": "PostgreSql", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+		]
+	},
 	{
 		"project": "Abies.",
 		"url": "https://abies.andreceasar.com",
@@ -8,8 +27,8 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "left",	"h": "1730", "w": "1080", "url": "/img/abies_home.jpg" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1730", "w": "1080", "url": "/img/abies_list.jpg" }
+			{ "key": "mock-stack",	"hover": "left",	"h": "400", "w": "200", "url": "/img/abies_home.jpg" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "400", "w": "200", "url": "/img/abies_list.jpg" }
 		],
 		"stack": [
 			{ "key": "react", 		"name": "React Native", "type": "devicon" },

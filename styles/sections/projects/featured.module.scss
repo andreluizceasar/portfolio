@@ -23,8 +23,6 @@
 	}
 
 	&:hover {
-		cursor: pointer;
-
 		.viewProject svg {
 			@include transition;
 			color: var(--neon-1-1);

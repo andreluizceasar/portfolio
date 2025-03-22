@@ -1,5 +1,4 @@
 // Core packages
-import { Analytics } from '@vercel/analytics/react';
 import { LazyMotion, domAnimation } from "framer-motion"
 import { GoogleAnalytics } from '@next/third-parties/google';
 
@@ -40,7 +39,6 @@ export default function MyApp({ Component, pageProps }) {
 			<Layout>
 				<Component {...pageProps} />
 				<SetGridGap />
-				<Analytics />
 				<GoogleAnalytics gaId="G-41EYMLWWT6" />
 			</Layout>
 		</LazyMotion>

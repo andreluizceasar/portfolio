@@ -43,7 +43,7 @@ export default function Technical() {
 						/>
 						<BadgesBlock
 							title="Software que gosto de usar"
-							copy="Com mais de 3 anos de experiência na criação de ativos digitais, tenho um entendimento profundo e intuitivo de como as interfaces dos melhores produtos de software do mundo são projetadas. Aqui estão apenas alguns dos softwares que utilizei ao longo desse tempo."
+							copy="Tenho um entendimento profundo e intuitivo de como as interfaces dos melhores produtos de software do mundo são projetadas. Aqui estão apenas alguns dos softwares que utilizei ao longo desse tempo."
 							list={software}
 							block="software"
 							fullContainer="fullContainer"
