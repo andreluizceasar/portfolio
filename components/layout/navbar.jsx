@@ -152,7 +152,8 @@ export default function Navbar() {
 									return (
 										<li key={index}>
 											<a
-												href="javascript:(function() { document.location.href = 'https://blog.andreceasar.com' })()"
+												href="https://astrobytes.com.br/"
+												target='_blank'
 											>{title}</a>
 										</li>
 									)

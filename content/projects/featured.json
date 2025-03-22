@@ -12,10 +12,11 @@
 			{ "key": "mock-stack",	"hover": "right",	"h": "600", "w": "274", "url": "/img/temperedme2.jpg" }
 		],
 		"stack": [
-			{ "key": "nextjs", 		"name": "NextJs", 		"type": "devicon" },
-			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" },
-			{ "key": "postgresql", 	"name": "PostgreSql", 	"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+			{ "key": "nextjs", 		 "name": "NextJs", 		 "type": "devicon" },
+			{ "key": "typescript", 	 "name": "TypeScript", 	 "type": "devicon" },
+			{ "key": "postgresql", 	 "name": "PostgreSql",   "type": "devicon" },
+			{ "key": "tailwindcss",  "name": "TailwindCss",  "type": "devicon" },
+			{ "key": "git",			 "name": "Git(Hub)", 	 "type": "devicon" }
 		]
 	},
 	{
@@ -33,7 +34,7 @@
 		"stack": [
 			{ "key": "react", 		"name": "React Native", "type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "nodejs", 		"name": "NodeJs", 			"type": "devicon" },
+			{ "key": "nodejs", 		"name": "NodeJs", 		"type": "devicon" },
 			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
 		]
