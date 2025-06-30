@@ -1,5 +1,25 @@
 [	
 	{
+		"project": "Anchore.",
+		"url": "https://anchore.vercel.app/",
+		"repo": "Private",
+		"descriptionTitle": "Plataforma acadêmica",
+		"description": "para integração de alunos.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left",	"h": "400", "w": "200", "url": "/img/anchore_menu.jpg" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "400", "w": "200", "url": "/img/anchore_profile.jpg" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		 "name": "NextJs", 		 "type": "devicon" },
+			{ "key": "typescript", 	 "name": "TypeScript", 	 "type": "devicon" },
+			{ "key": "postgresql", 	 "name": "PostgreSql",   "type": "devicon" },
+			{ "key": "tailwindcss",  "name": "TailwindCss",  "type": "devicon" },
+			{ "key": "git",			 "name": "Git(Hub)", 	 "type": "devicon" }
+		]
+	},
+	{
 		"project": "TemperedMe.",
 		"url": "https://tempered.me",
 		"repo": "Private",
