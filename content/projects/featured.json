@@ -3,8 +3,8 @@
 		"project": "Anchore.",
 		"url": "https://anchore.vercel.app/",
 		"repo": "Private",
-		"descriptionTitle": "Plataforma acadêmica",
-		"description": "para integração de alunos.",
+		"descriptionTitle": "Academic platform",
+		"description": "for student integration.",
 		"imageOptions": [
 		],
 		"images": [
@@ -23,8 +23,8 @@
 		"project": "TemperedMe.",
 		"url": "https://tempered-me.vercel.app",
 		"repo": "Private",
-		"descriptionTitle": "Monitoramento de Humor",
-		"description": "e atividades feito simples.",
+		"descriptionTitle": "Mood Monitoring",
+		"description": "and activities made simple.",
 		"imageOptions": [
 		],
 		"images": [
@@ -43,8 +43,8 @@
 		"project": "Abies.",
 		"url": "https://abies.lat",
 		"repo": "Private",
-		"descriptionTitle": "Gestão de bovinos",
-		"description": "com leitor de código de barras.",
+		"descriptionTitle": "Cattle management",
+		"description": "with barcode reader.",
 		"imageOptions": [
 		],
 		"images": [

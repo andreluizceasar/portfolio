@@ -25,25 +25,25 @@ import about from '../../../styles/sections/index/about.module.scss'
  */
 export default function Technical() {
 	return (
-		<Section id="tecnologias" classProp={`${about.section} borderBottom`}>
+		<Section id="technologies" classProp={`${about.section} borderBottom`}>
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Tecnologias"
-					preTitle="Habilidades"
-					subTitle="Utilizo um conjunto diversificado de ferramentos e linguagens."
+					title="Technologies"
+					preTitle="Skills"
+					subTitle="I use a diverse set of tools and languages."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock
-							title="Fundação em conhecimentos"
+							title="Foundation in Knowledge"
 							icon={['fas', 'network-wired']}
-							copy="Com uma sólida base em design e desenvolvimento, eu trago uma perspectiva única para cada projeto e estou constantemente aprendendo e evoluindo para me manter atualizado com as últimas tendências da indústria."
+							copy="With a solid foundation in design and development, I bring a unique perspective to each project and am constantly learning and evolving to stay updated with the latest industry trends."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
 						<BadgesBlock
-							title="Software que gosto de usar"
-							copy="Tenho um entendimento profundo e intuitivo de como as interfaces dos melhores produtos de software do mundo são projetadas. Aqui estão apenas alguns dos softwares que utilizei ao longo desse tempo."
+							title="Software I like to use"
+							copy="I have a deep and intuitive understanding of how the interfaces of the world's best software products are designed. Here are just some of the software I've used over time."
 							list={software}
 							block="software"
 							fullContainer="fullContainer"
@@ -52,8 +52,8 @@ export default function Technical() {
 							headerIcon={about.icon}
 						/>
 						<BadgesBlock
-							title="Tecnologias com que construo"
-							copy="Eu realmente aprecio resolver problemas por meio de código. Desde o front end até o back end e os APIs intermediários. Nenhum projeto é muito desafiador para mim."
+							title="Technologies I build with"
+							copy="I really appreciate solving problems through code. From front end to back end and intermediate APIs. No project is too challenging for me."
 							list={tech}
 							block="tech"
 							fullContainer="fullContainer"

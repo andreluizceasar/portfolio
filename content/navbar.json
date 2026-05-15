@@ -1,18 +1,18 @@
 [
 	{
-		"url": "/#sobre-mim",
-		"title": "Sobre Mim"
+		"url": "/#about-me",
+		"title": "About Me"
 	},
 	{
-		"url": "/#tecnologias",
-		"title": "Tecnologias"
+		"url": "/#technologies",
+		"title": "Technologies"
 	},
 	{
-		"url": "/artigos",
+		"url": "/articles",
 		"title": "Blog"
 	},
 	{
-		"url": "/#projetos",
-		"title": "Projetos"
+		"url": "/#projects",
+		"title": "Projects"
 	}
 ]

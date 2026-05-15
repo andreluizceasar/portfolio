@@ -1,20 +1,28 @@
 // Core packages
+
+import BadgesBlock from '../../blocks/about.badges.block'
+import Container from '../../structure/container';
+import CopyBlock from '../../blocks/about.copy.block'
 import Image from 'next/image'
+import Section from '../../structure/section';
+import SectionGridBg from '../../blocks/section.grid.block'
+import SectionTitle from '../../blocks/section.title.block'
+import about from '../../../styles/sections/index/about.module.scss';
 
 // Section structure
-import Section from '../../structure/section';
-import Container from '../../structure/container';
+
+
 
 // Section general blocks
-import SectionTitle from '../../blocks/section.title.block'
-import SectionGridBg from '../../blocks/section.grid.block'
+
+
 
 // Section specific blocks
-import BadgesBlock from '../../blocks/about.badges.block'
-import CopyBlock from '../../blocks/about.copy.block'
+
+
 
 // Section scss
-import about from '../../../styles/sections/index/about.module.scss';
+
 
 /**
  * Section: About
@@ -25,12 +33,12 @@ import about from '../../../styles/sections/index/about.module.scss';
  */
 export default function About() {
 	return (
-		<Section id="sobre-mim" classProp={about.section}>	
+		<Section id="about-me" classProp={about.section}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Sobre Mim"
-					preTitle="Sinópse"
-					subTitle="Possuo um portfólio diversificado de projetos desenvolvidos individualmente, demonstrando minha capacidade de trabalhar de forma independente e proativa."
+					title="About Me"
+					preTitle="Synopsis"
+					subTitle="I have a diverse portfolio of projects developed individually, demonstrating my ability to work independently and proactively."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
@@ -40,20 +48,20 @@ export default function About() {
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills"
-							containerClass={about.container}
-							iconClass={about.icon}
-							icon={[ 'fas', 'ear-listen' ]}
-							copy="Sou uma pessoa apaixonada por aprender e crescer, buscando constantemente aprimorar minhas habilidades e conhecimentos. Possuo excelente comunicação, transmitindo ideias de forma clara e eficiente. Sou habilidoso em apresentar informações complexas de maneira simples e compreensível, tanto em português quanto em inglês."
+						title="Soft Skills"
+						containerClass={about.container}
+						iconClass={about.icon}
+						icon={[ 'fas', 'ear-listen' ]}
+						copy="I am a person passionate about learning and growing, constantly seeking to improve my skills and knowledge. I have excellent communication, transmitting ideas clearly and efficiently. I am skilled at presenting complex information in a simple and understandable way, both in Portuguese and English."
 						/>
 						<BadgesBlock 
-							title="Pesquisa e planejamento" 
-							containerClass={about.container}
-							list={methods} 
-							fullContainer="fullContainer"
-							block="methods" 
-							icon="fingerprint"
-							copy="Um dos meus aspectos preferidos em criar um projeto é criar e planejar a arquitetura. Desde Design Systems a estratégias de Branding gosto de trabalhar com vários aspectos da experiência do usuário."
+						title="Research and Planning" 
+						containerClass={about.container}
+						list={methods} 
+						fullContainer="fullContainer"
+						block="methods" 
+						icon="fingerprint"
+						copy="One of my favorite aspects when creating a project is building and planning the architecture. From Design Systems to Branding strategies, I enjoy working with various aspects of user experience."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>

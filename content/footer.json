@@ -3,24 +3,24 @@
 		{
 			"person": "Taylor Swift",
 			"link": "https://www.taylorswift.com/",
-			"note": "Cantora talentosa, voz de uma geração."
+			"note": "Talented singer, voice of a generation."
 		},
 		{
 			"person": "Elon Musk",
 			"link": "https://www.tesla.com/elon-musk",
-			"note": "Visionário disruptivo, moldando o amanhã."
+			"note": "Disruptive visionary, shaping tomorrow."
 		},
 		{
 			"person": "LeBron James",
 			"link": "https://www.lebronjames.com/",
-			"note": "Ícone do basquete, líder inspirador."
+			"note": "Basketball icon, inspiring leader."
 		}
 	],
 	"links": [
 		{
-			"person": "Currículo",
+			"person": "Resume",
 			"link": "https://resume.andreceasar.com/",
-			"note": "Experiência e habilidades detalhadas."
+			"note": "Detailed experience and skills."
 		}
 	],
 	"social": [

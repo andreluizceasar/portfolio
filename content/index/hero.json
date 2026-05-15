@@ -1,7 +1,7 @@
 {
 	"intro": {
 		"start": "const Andre = ( name, passion ) =>",
-		"end": "Oi, meu nome é",
+		"end": "Hi, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -12,14 +12,14 @@
 
 	"header": {
 		"name": "André Luiz Ceasar.",
-		"usp": "Transformo desafios em produtos digitais."
+		"usp": "Transforming challenges into digital products."
 	},
 
-	"paragraph": "Curioso por natureza e movido por desafios, gosto de explorar novas tecnologias e técnicas para desenvolver soluções digitais.",
+	"paragraph": "Naturally curious and driven by challenges, I enjoy exploring new technologies and techniques to develop digital solutions.",
 
 	"buttons": {
 		"primary": {
-			"title": "Fale comigo",
+			"title": "Get in touch",
 			"url": "",
 			"leaveSite": false
 		},
