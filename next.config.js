@@ -8,6 +8,7 @@ const basePath =
 
 module.exports = {
 	basePath,
+	output: process.env.GITHUB_ACTIONS === 'true' ? 'export' : undefined,
   	assetPrefix: '',
 	reactStrictMode: true,
 	env: {
