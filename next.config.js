@@ -1,11 +1,21 @@
+const repository = process.env.GITHUB_REPOSITORY?.split('/')[1];
+const basePath =
+	process.env.GITHUB_ACTIONS === 'true' &&
+	repository &&
+	repository !== 'andreluizceasar.github.io'
+		? `/${repository}`
+		: '';
+
 module.exports = {
-	basePath: '',
+	basePath,
   	assetPrefix: '',
 	reactStrictMode: true,
 	env: {
 		dir: '/',
+		NEXT_PUBLIC_BASE_PATH: basePath,
 	},
 	images: {
+		unoptimized: process.env.GITHUB_ACTIONS === 'true',
 		remotePatterns: [
 			{
 				protocol: "https",

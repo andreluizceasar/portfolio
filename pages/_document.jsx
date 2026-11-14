@@ -14,7 +14,7 @@ export default function Document() {
 			<Head>
 				<title>André Luiz Ceasar</title>
 				
-				<link rel="icon" type="image/png" href="/favicon/favicon-sun.png" />
+				<link rel="icon" type="image/png" href={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon/favicon-sun.png`} />
 				{/* <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
 				<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
 				<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
