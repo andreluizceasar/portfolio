@@ -1,5 +1,25 @@
 [	
 	{
+		"project": "Adorah.",
+		"url": "https://play.google.com/store/apps/details?id=com.fault.software.adorah",
+		"repo": "Private",
+		"descriptionTitle": "Lyrics & Chords",
+		"description": "for Worship Teams.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left",	"h": "400", "w": "200", "url": "/img/adorah_home.webp" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "400", "w": "200", "url": "/img/adorah_song.webp" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React Native", "type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "nodejs", 		"name": "NodeJs", 		"type": "devicon" },
+			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+		]
+	},
+	{
 		"project": "Anchore.",
 		"url": "https://anchore.vercel.app/",
 		"repo": "Private",
